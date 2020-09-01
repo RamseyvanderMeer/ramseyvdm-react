@@ -1,0 +1,8 @@
+{
+  "short_name": "Ziplyne vs. WalkMe",
+  "name": "Ziplyne vs. WalkMe",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

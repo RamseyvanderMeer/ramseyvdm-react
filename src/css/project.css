@@ -1,0 +1,105 @@
+.main {
+  margin-top: 76.5px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project__card {
+  position: relative;
+  display: grid;
+  grid: auto/50% 50%;
+  background-color: #353a3d;
+  width: 100%;
+  margin: 3% 2% 0 2%;
+  border-radius: 15px;
+  transform: scale(0.98);
+  transition: 0.5s;
+  box-shadow: 0 0 4px 1px black;
+}
+.project__card:hover {
+  position: relative;
+  display: grid;
+  grid: auto/50% 50%;
+  background-color: #353a3d;
+  width: 100%;
+  margin: 3% 2% 0 2%;
+  border-radius: 15px;
+  transform: scale(1);
+  transition: 0.5s;
+  box-shadow: 0 0 8px 1px black;
+}
+.project__icon {
+  color: white;
+}
+.project__icon-padding {
+  margin: 2rem auto 2rem auto;
+}
+.project__title {
+  padding-top: 1rem;
+  text-align: center;
+  color: #D8D8D8;
+}
+.project__container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project__image {
+  width: 85%;
+  margin: 5%;
+  border-radius: 10px;
+}
+.project__text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem 3% 0 3%;
+}
+.project__description {
+  padding-top: 1rem;
+  text-align: center;
+  color: #D8D8D8;
+}
+@media screen and (max-width: 959px) {
+  .project__card {
+    position: relative;
+    display: grid;
+    grid: auto/100%;
+    background-color: #353a3d;
+    width: 100%;
+    margin: 3% 2% 0 2%;
+    border-radius: 15px;
+    transform: scale(0.98);
+    transition: 0.5s;
+  }
+  .project__card:hover {
+    position: relative;
+    display: grid;
+    grid: auto/50% 50%;
+    background-color: #353a3d;
+    width: 100%;
+    margin: 3% 2% 0 2%;
+    border-radius: 15px;
+    transform: scale(1);
+    transition: 0.5s;
+  }
+  .project__title {
+    padding-top: 3rem;
+    text-align: center;
+    color: #D8D8D8;
+  }
+  .project__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 7% 0 7%;
+  }
+}
+
+/*# sourceMappingURL=project.css.map */

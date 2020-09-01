@@ -1,0 +1,105 @@
+@import "colors";
+
+.main {
+    margin-top: 76.5px;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__card {
+        position: relative;
+        display: grid;
+        grid: auto / 50% 50%;
+        background-color: $dark-gray;
+        width: 100%;
+        margin: 3% 2% 0 2%;
+        border-radius: 15px;
+        transform: scale(0.98);
+        transition: 0.5s;
+        box-shadow: 0 0 4px 1px black;
+    }
+    &__card:hover {
+        position: relative;
+        display: grid;
+        grid: auto / 50% 50%;
+        background-color: $dark-gray;
+        width: 100%;
+        margin: 3% 2% 0 2%;
+        border-radius: 15px;
+        transform: scale(1);
+        transition: 0.5s;
+        box-shadow: 0 0 8px 1px black;
+    }
+    &__icon {
+        color: white;
+    }
+    &__icon-padding {
+        margin: 2rem auto 2rem auto;
+    }
+    &__title {
+        padding-top: 1rem;
+        text-align: center;
+        color: $light-gray;
+    }
+    &__container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__image {
+        width: 85%;
+        margin: 5%;
+        border-radius: 10px;
+    }
+    &__text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 1rem 3% 0 3%;
+    }
+    &__description {
+        padding-top: 1rem;
+        text-align: center;
+        color: $light-gray;
+    }
+    @media screen and (max-width: 959px) {
+        &__card {
+            position: relative;
+            display: grid;
+            grid: auto / 100%;
+            background-color: $dark-gray;
+            width: 100%;
+            margin: 3% 2% 0 2%;
+            border-radius: 15px;
+            transform: scale(0.98);
+            transition: 0.5s;
+        }
+        &__card:hover {
+            position: relative;
+            display: grid;
+            grid: auto / 50% 50%;
+            background-color: $dark-gray;
+            width: 100%;
+            margin: 3% 2% 0 2%;
+            border-radius: 15px;
+            transform: scale(1);
+            transition: 0.5s;
+        }
+        &__title {
+            padding-top: 3rem;
+            text-align: center;
+            color: $light-gray;
+        }
+        &__text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            margin: 1rem 7% 0 7%;
+        }
+    }
+}
