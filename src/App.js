@@ -16,7 +16,6 @@ class App extends Component {
        <BrowserRouter>
         <div>
           <Header />
-          <HashRouter basename='/'>
             <Switch>
              <Route path="/" component={Home} exact/>
              <Route path="/ramseyvdm" component={Home} exact/>
@@ -27,7 +26,6 @@ class App extends Component {
              <Route path="/Photography" component={Photography}/>
             <Route component={Error}/>
            </Switch>
-          </HashRouter>
         </div> 
       </BrowserRouter>
     );
